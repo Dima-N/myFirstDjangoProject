@@ -1,0 +1,11 @@
+<h1>
+  hello
+  <table>
+    {% for l in lst %}
+    <tr>
+      <td>{{ l.0 }}</td>
+      <td>{{ l.1 }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</h1>
